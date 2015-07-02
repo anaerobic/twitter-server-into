@@ -41,8 +41,7 @@ object BasicServer extends TwitterServer {
   }
 
   def main() {
-    val port = args(0)
-    val server = Http.serve(":" + port, service)
+    val server = Http.serve(":8080", service)
     onExit {
       server.close()
     }

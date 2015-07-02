@@ -1,4 +1,4 @@
-name := "TwitServRevAuthProxy"
+name := "Twitter Server Intro"
 
 version := "1.0"
 
