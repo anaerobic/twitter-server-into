@@ -9,8 +9,3 @@ EXPOSE 8080
 EXPOSE 9990
 
 CMD sbt run
-
-
-
-
-
