@@ -1,4 +1,4 @@
-FROM base-twitter-server:latest
+FROM anaerobic/base-twitter-server:latest
 
 COPY . /app
 
